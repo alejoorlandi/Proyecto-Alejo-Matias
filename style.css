@@ -1,0 +1,50 @@
+.Formulario{
+    backdrop-filter: blur(10px);
+	background-color: rgba(0, 128, 255, 0.2);
+    margin-top: 100px;
+    padding:10px ;
+}
+
+.Contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+input[type=text],
+input[type=password]{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.input_contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+
+}
+.button{
+    border: none;
+    width: 70%;
+    margin-left: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover{
+    background: rgba(0, 128, 255, 0.5); 
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}   
